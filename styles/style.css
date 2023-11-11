@@ -137,7 +137,6 @@
 .bet-button{
   font-family: Raleway, sans-serif;
   color: #FFF;
-  font-family: Raleway;
   font-size: 22px;
   font-weight: 400;
   text-transform: uppercase;
@@ -230,10 +229,6 @@
   text-underline-offset: 5px;
 }
 
-.about {
-    
-}
-
 .about__column {
     display: grid;
     grid-template-columns: 430px;
@@ -286,7 +281,7 @@
     margin-bottom: 90px;
 }
 
-.fooret__menu {
+.footer__menu {
     grid-column-start: 2;
     
 }
