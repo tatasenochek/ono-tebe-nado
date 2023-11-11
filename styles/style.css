@@ -1,10 +1,10 @@
 .header {
-  padding-top: 92px;
+  padding-top: 90px;
   max-width: 1340px;
   margin: auto;
   display: grid;
   grid-template-columns: 430px;
-  gap: 25px;
+  gap: 75px;
 }
 
 .header__menu {
@@ -14,7 +14,8 @@
 
 .header__links-list {
   display: flex;
-  gap: 32px;
+  gap: 33px;
+  font-size: 18px;
   list-style: circle;
   text-underline-offset: 5px;
 }
@@ -27,9 +28,8 @@
 .header__logo {
   grid-column-start: 2;
   justify-self: center;
-  align-self: center;
   display: block;
-  width: 148px;
+  width: 140px;
 }
 
 .header__logo-image {
@@ -40,12 +40,13 @@
   grid-column-start: 3;
   justify-self: end;
   align-self: center;
+  font-size: 18px;
 }
 
 .address-item {
   list-style: none;
-  text-underline-offset: 5px;
-  line-height: 1.35;
+  text-underline-offset: 3px;
+  line-height: 1.3;
 }
 
 .address-item address {
@@ -53,7 +54,7 @@
 }
 
 .content {
-  margin: 92px auto 180px;
+  margin: 90px auto 188px;
   display: flex;
   flex-direction: column;
   gap: 180px;
@@ -92,21 +93,26 @@
   margin-top: 165px;
   font-size: 100px;
   font-weight: 700;
-  line-height: 1.15;
   text-transform: uppercase;
   letter-spacing: 30px;
 }
 
 .aligned-text {
   display: block;
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 1.1;
 }
 
 .aligned-text_center {
   text-align: center;
+  line-height: 1.1;
+  width: 1310px;
 }
 
 .aligned-text_right {
   text-align: right;
+  line-height: 0.9;
 }
 
 .letter-spacing-extended {
@@ -120,27 +126,28 @@
 .cover__description {
   display: flex;
   gap: 78px;
+  height: 52px;
   justify-content: end;
-  margin-top: 135px;
+  margin-top: 140px;
   margin-bottom: 50px;
 }
 
 .cover__description-text {
   font-family: Raleway, sans-serif;
   font-size: 22px;
-  font-style: normal;
+  line-height: 0.5;
   font-weight: 400;
-  line-height: 1.3;
   text-transform: uppercase;
 }
 
-.bet-button{
+.bet-button {
   font-family: Raleway, sans-serif;
   color: #FFF;
   font-size: 22px;
   font-weight: 400;
+  line-height: 1;
   text-transform: uppercase;
-  padding: 12px 32px;
+  padding: 5px 32px;
   background: transparent;
   border: 1px solid #FFF;
   cursor: pointer;
@@ -159,7 +166,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   gap: 25px;
-  margin-bottom: 27px;
+  margin-bottom: 29px;
 }
 
 .lots__card-list-item {
@@ -213,7 +220,7 @@
   font-weight: 700;
   line-height: 1.2;
   text-decoration-line: underline;
-  text-underline-offset: 4px;
+  text-underline-offset: 2px;
   text-transform: uppercase;
 }
 
@@ -232,7 +239,7 @@
 .about__column {
     display: grid;
     grid-template-columns: 430px;
-    gap: 25px;
+    gap: 12px;
 }
 
 .about__logo {
@@ -244,7 +251,6 @@
     width: 240px;
     height: 240px;
     border-radius: 100%;
-
 }
 
 .about__logo-image {
@@ -263,6 +269,7 @@
 .about__title {
     font-size: 40px;
     font-weight: 700;
+    line-height: 1.3;
     text-transform: uppercase;
     padding: 100px 0;    
 }
@@ -270,20 +277,25 @@
 .about__text {
     display: flex;
     flex-direction: column;
-    gap: 25px;
+    gap: 33px;
     font-size: 20px;
+    line-height: 1.1;
 }
 
 .footer {
     display: grid;
     grid-template-columns: 430px;
-    gap: 25px;
+    gap: 70px;
     margin-bottom: 90px;
 }
 
+.footer__address{
+  font-size: 18px;
+}
+
 .footer__menu {
-    grid-column-start: 2;
-    
+  grid-column-start: 2;
+  justify-self: center;
 }
 
 .footer__links-list {
@@ -298,13 +310,13 @@ align-items: center;
 
 .footer__link {
     font-size: 18px;
-    text-underline-offset: 5px;
+    text-underline-offset: 4px;
 }
 
 
 .footer__social-list {
-    grid-column-start: 3;
-    justify-self: end;
+  grid-column-start: 3;
+  justify-self: end;
   display: flex;
   gap: 48px;
 }
