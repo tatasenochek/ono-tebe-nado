@@ -63,6 +63,9 @@
   position: relative;
   z-index: 0;
   background-image: url(/images/cover.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
   color: #FFF;
   
 }
@@ -184,17 +187,25 @@
 
 .card_type_film {
   background-image: url(/images/card-lot-01.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
   height: 100%;
-  width: 100%;
 }
 
 .card_type_book {
   background-image: url(/images/card-lot-02.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
   height: 100%;
 }
 
 .card_type_picture {
   background-image: url(/images/card-lot-03.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
   height: 100%;
 }
 
