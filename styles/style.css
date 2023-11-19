@@ -3,8 +3,7 @@
   max-width: 1340px;
   margin: auto;
   display: grid;
-  grid-template-columns: 430px;
-  gap: 75px;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .header__menu {
@@ -101,7 +100,6 @@
 
 .aligned-text_center {
   text-align: center;
-  max-width: 1310px;
 }
 
 .aligned-text_right {
@@ -171,6 +169,7 @@
   flex-wrap: wrap;
   gap: 25px;
   margin-bottom: 29px;
+  flex-grow: 1;
 }
 
 .lots__card-list-item {
@@ -238,7 +237,7 @@
 
 .about__column {
   display: grid;
-  grid-template-columns: 430px;
+  grid-template-columns: 430px 2fr;
   gap: 12px;
 }
 
