@@ -281,8 +281,7 @@
 
 .footer {
   display: grid;
-  grid-template-columns: 430px;
-  gap: 70px;
+  grid-template-columns: repeat(3 1fr);
   margin-bottom: 90px;
 }
 
